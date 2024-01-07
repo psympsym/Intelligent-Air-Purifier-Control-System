@@ -413,6 +413,11 @@
               <FileType>1</FileType>
               <FilePath>../Core/Src/stm32f1xx_hal_msp.c</FilePath>
             </File>
+            <File>
+              <FileName>bsp_delay.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\User\DELAY\bsp_delay.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -514,5 +519,14 @@
     </components>
     <files/>
   </RTE>
+
+  <LayerInfo>
+    <Layers>
+      <Layer>
+        <LayName>AirPurifierControl</LayName>
+        <LayPrjMark>1</LayPrjMark>
+      </Layer>
+    </Layers>
+  </LayerInfo>
 
 </Project>

@@ -1,0 +1,83 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.38.0.0
+Copyright (C) 2022 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: afdsasf WHR, fasdfasasdfawef, LIC=585FJ-UJAP8-9UD4U-SPJT9-MG395-FY7TL
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.38.0.0
+Toolchain Path:  D:\ARM keil\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 7 (build 960)
+Assembler:       Armasm.exe V5.06 update 7 (build 960)
+Linker/Locator:  ArmLink.exe V5.06 update 7 (build 960)
+Library Manager: ArmAr.exe V5.06 update 7 (build 960)
+Hex Converter:   FromElf.exe V5.06 update 7 (build 960)
+CPU DLL:         SARMCM3.DLL V5.38.0.0
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.15.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+D:\Document\Code\STM32\S2-1\Big work\AirPurifierControl\MDK-ARM\AirPurifierControl.uvprojx
+Project File Date:  01/07/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 7 (build 960)', folder: 'D:\ARM keil\ARM\ARMCC\Bin'
+Rebuild target 'AirPurifierControl'
+assembling startup_stm32f103xe.s...
+compiling bsp_delay.c...
+..\User\DELAY\bsp_delay.c(48): error:  #20: identifier "g_fac_us" is undefined
+      g_fac_us = sysclk / 8; /* 不论是否使用OS,g_fac_us都需要使用,作为1us的基础时基 */
+..\User\DELAY\bsp_delay.c(60): error:  #20: identifier "g_fac_us" is undefined
+      SysTick->LOAD = nus * g_fac_us; /* 时间加载 */
+..\User\DELAY\bsp_delay.c: 0 warnings, 2 errors
+compiling stm32f1xx_hal_pwr.c...
+compiling gpio.c...
+compiling stm32f1xx_hal_tim.c...
+compiling main.c...
+compiling stm32f1xx_it.c...
+compiling stm32f1xx_hal_gpio.c...
+compiling stm32f1xx_hal_msp.c...
+compiling stm32f1xx_hal_tim_ex.c...
+compiling stm32f1xx_hal_gpio_ex.c...
+compiling stm32f1xx_hal_cortex.c...
+compiling stm32f1xx_hal_flash.c...
+compiling stm32f1xx_hal_rcc_ex.c...
+compiling stm32f1xx_hal.c...
+compiling stm32f1xx_hal_dma.c...
+compiling stm32f1xx_hal_rcc.c...
+compiling stm32f1xx_hal_flash_ex.c...
+compiling stm32f1xx_hal_exti.c...
+compiling system_stm32f1xx.c...
+"AirPurifierControl\AirPurifierControl.axf" - 2 Error(s), 0 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.9.0.pack
+                ARM.CMSIS.5.9.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.6.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil.STM32F1xx_DFP.2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_AirPurifierControl
+  D:/ARM keil/Packs/ARM/CMSIS/5.9.0/CMSIS/Core/Include
+  D:/ARM keil/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.6.0
+      Include file:  CMSIS/Core/Include/tz_context.h
+Target not created.
+Build Time Elapsed:  00:00:04
+</pre>
+</body>
+</html>

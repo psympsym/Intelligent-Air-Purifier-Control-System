@@ -15,6 +15,7 @@
                 "D:\\ARM keil\\ARM\\ARMCC\\include\\rw",
                 "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\MDK-ARM",
                 "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\Core\\Src",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\DELAY",
                 "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [
