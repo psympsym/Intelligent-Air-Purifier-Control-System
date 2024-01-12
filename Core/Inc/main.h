@@ -57,6 +57,36 @@ void Error_Handler(void);
 /* USER CODE END EFP */
 
 /* Private defines -----------------------------------------------------------*/
+#define KEY2_Pin GPIO_PIN_13
+#define KEY2_GPIO_Port GPIOC
+#define KEY2_EXTI_IRQn EXTI15_10_IRQn
+#define LED1_Pin GPIO_PIN_2
+#define LED1_GPIO_Port GPIOC
+#define LED2_Pin GPIO_PIN_3
+#define LED2_GPIO_Port GPIOC
+#define KEY1_Pin GPIO_PIN_0
+#define KEY1_GPIO_Port GPIOA
+#define KEY1_EXTI_IRQn EXTI0_IRQn
+#define ZPH04_Pin GPIO_PIN_4
+#define ZPH04_GPIO_Port GPIOA
+#define ROCKER_X_Pin GPIO_PIN_5
+#define ROCKER_X_GPIO_Port GPIOA
+#define ROCKER_Y_Pin GPIO_PIN_6
+#define ROCKER_Y_GPIO_Port GPIOA
+#define DHT22_Pin GPIO_PIN_5
+#define DHT22_GPIO_Port GPIOC
+#define OLED_SCL_Pin GPIO_PIN_10
+#define OLED_SCL_GPIO_Port GPIOB
+#define OLED_SDA_Pin GPIO_PIN_11
+#define OLED_SDA_GPIO_Port GPIOB
+#define RGB_R_Pin GPIO_PIN_6
+#define RGB_R_GPIO_Port GPIOC
+#define RGB_G_Pin GPIO_PIN_7
+#define RGB_G_GPIO_Port GPIOC
+#define RGB_B_Pin GPIO_PIN_8
+#define RGB_B_GPIO_Port GPIOC
+#define FAN_Pin GPIO_PIN_6
+#define FAN_GPIO_Port GPIOB
 
 /* USER CODE BEGIN Private defines */
 
