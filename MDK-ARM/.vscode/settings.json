@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        "bsp_delay.h": "c",
+        "bsp_dht22.h": "c",
+        "bsp_rocker.h": "c",
+        "adc.h": "c",
+        "main.h": "c",
+        "bsp_usart.h": "c",
+        "rtc.h": "c",
+        "tim.h": "c",
+        "usart.h": "c",
+        "stm32f1xx_it.h": "c"
+    }
+}

@@ -14,8 +14,14 @@
                 "D:\\ARM keil\\ARM\\ARMCC\\include\\arm_linux_compat",
                 "D:\\ARM keil\\ARM\\ARMCC\\include\\rw",
                 "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\MDK-ARM",
-                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\Core\\Src",
                 "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\DELAY",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\DHT22",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\FAN",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\RTC",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\ROCKER",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\USART",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\User\\ZPH04",
+                "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\Core\\Src",
                 "d:\\Document\\Code\\STM32\\S2-1\\Big work\\AirPurifierControl\\Drivers\\STM32F1xx_HAL_Driver\\Src"
             ],
             "defines": [
